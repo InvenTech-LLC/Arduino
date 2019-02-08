@@ -45,12 +45,13 @@ static const uint8_t D8   = 12;
 static const uint8_t D9   = 16;
 static const uint8_t RX  = 3;
 static const uint8_t TX = 1;
-static const uint8_t A0 = 0;
+static const uint8_t ANALOG_PIN = 4;
 /*Analog pins for Onboard ADC*/
-static const uint8_t A1 = 1;
-static const uint8_t A2 = 2;
-static const uint8_t A3 = 3;
-static const uint8_t A4 = 4;
+static const uint8_t ANALOG1 = 0;
+static const uint8_t ANALOG2 = 1;
+static const uint8_t ANALOG3 = 2;
+static const uint8_t ANALOG4 = 3;
+
 
 #include "../generic/common.h"
 
